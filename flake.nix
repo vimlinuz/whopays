@@ -33,6 +33,8 @@
           pkgs.pnpm
           pkgs.prettier
           pkgs.anchor
+
+          pkgs.nodejs
         ];
         nativeBuildInputs = [ pkgs.pkg-config ];
 
