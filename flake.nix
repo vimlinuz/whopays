@@ -32,6 +32,7 @@
           pkgs.zenity
           pkgs.pnpm
           pkgs.prettier
+          pkgs.anchor
         ];
         nativeBuildInputs = [ pkgs.pkg-config ];
 
