@@ -33,6 +33,7 @@
           pkgs.pnpm
           pkgs.prettier
           pkgs.anchor
+          pkgs.mocha
 
           pkgs.nodejs
         ];
