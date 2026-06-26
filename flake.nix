@@ -38,6 +38,10 @@
         ];
         nativeBuildInputs = [ pkgs.pkg-config ];
 
+        shellHook = ''
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+        '';
+
       };
       formatter = pkgs.rustfmt;
     };
